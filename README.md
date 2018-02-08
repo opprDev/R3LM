@@ -6,9 +6,13 @@ A starter boilerplate for a universal webapp using [React](https://reactjs.org/)
 
 ## Instructions
 
+1. Create a MongoDB data source connector to the MongoDB:
+
 ```
 lb datasource mongoDS --connector mongoDB
 ```
+
+2. Follow the next step as an example to the data source and data base configuration.
 
 #### Example
 
@@ -23,9 +27,13 @@ lb datasource mongoDS --connector mongoDB
 ? database: reeelm
 ```
 
+1. Cleate a LoopBack new model:
+
 ```
 lb model
 ```
+
+2. Give the new model a name:
 
 ```
 ? Enter the model name: reeelm
@@ -35,7 +43,11 @@ lb model
 ? Custom plural form (used to build REST URL):
 ? Common model or server only? common
 Let's add some reeelm properties now.
+```
 
+3. Create several properties:
+
+```
 Enter an empty property name when done.
 ? Property name: property_a
    invoke   loopback:property
@@ -62,4 +74,30 @@ Enter an empty property name when done.
 Let's add another reeelm property.
 Enter an empty property name when done.
 ? Property name:
+```
+
+### Usage
+
+1. From the root folder, install the dependencies.
+
+```sh
+$ npm install
+```
+
+2. To run the server
+
+```sh
+$ npm start
+```
+
+#### App
+
+```
+http://localhost:3000
+```
+
+#### Loopback Explorer:
+
+```
+http://localhost:3000/explorer
 ```
