@@ -5,7 +5,7 @@
     "url": "",
     "database": "reeelm",
     "password": "",
-    "name": "mongoDS",
+    "name": "db",
     "user": "",
     "connector": "mongodb"
   }
