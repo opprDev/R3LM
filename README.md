@@ -1,4 +1,9 @@
-# R3MEN
+# R3LM
+
+[![Build Status][travis-svg]][travis-url]
+
+[travis-svg]: https://travis-ci.org/Galooshi/happo.svg
+[travis-url]: https://travis-ci.org/Galooshi/happo
 
 <img src="banners/banner.png"/>
 
