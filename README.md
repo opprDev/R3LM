@@ -1,9 +1,29 @@
 # R3LM
 
-[![Build Status][travis-svg]][travis-url]
+<a href="#issues" alt="Issues">
+<img src="https://img.shields.io/github/issues/opprDev/R3LM.svg?style=flat-square" />
+</a>
+<a href="#forks" alt="Forks">
+<img src="https://img.shields.io/github/forks/opprDev/R3LM.svg?style=flat-square" />
+</a>
+<a href="#stars" alt="Stars">
+<img src="https://img.shields.io/github/stars/opprDev/R3LM.svg?style=flat-square" />
+</a>
+<a href="#license" alt="License">
+<img src="https://img.shields.io/github/license/opprDev/R3LM.svg?style=flat-square" />
+</a>
+<a href="#twitter" alt="Twitter">
+<img src="https://img.shields.io/twitter/url/https/github.com/opprDev/R3LM.svg?style=flat-square
+" />
+</a>
 
-[travis-svg]: https://travis-ci.org/opprDev/R3LM.svg
-[travis-url]: https://travis-ci.org/opprDev/R3LM
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
+
+[deps-svg]: https://david-dm.org/opprDev/R3LM.svg
+[deps-url]: https://david-dm.org/opprDev/R3LM
+[dev-deps-svg]: https://david-dm.org/opprDev/R3LM/dev-status.svg
+[dev-deps-url]: https://david-dm.org/opprDev/R3LM#info=devDependencies
 
 <img src="banners/banner.png"/>
 
