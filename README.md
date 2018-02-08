@@ -2,8 +2,8 @@
 
 [![Build Status][travis-svg]][travis-url]
 
-[travis-svg]: https://travis-ci.org/Galooshi/happo.svg
-[travis-url]: https://travis-ci.org/Galooshi/happo
+[travis-svg]: https://travis-ci.org/opprDev/R3LM.svg
+[travis-url]: https://travis-ci.org/opprDev/R3LM
 
 <img src="banners/banner.png"/>
 
