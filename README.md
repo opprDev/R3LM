@@ -80,14 +80,14 @@ Enter an empty property name when done.
 
 1. From the root folder, install the dependencies.
 
-```sh
-$ npm install
+```
+npm install
 ```
 
 2. To run the server
 
-```sh
-$ npm start
+```
+npm start
 ```
 
 #### App
@@ -100,4 +100,27 @@ http://localhost:3000
 
 ```
 http://localhost:3000/explorer
+```
+
+### Mongo Shell
+
+1. Start MongoDB Shell by the following command:
+
+```
+mongo
+```
+
+2. Next you have several useful `mongo` commands:
+
+```bash
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+reeelm  0.000GB
+> use reeelm
+switched to db reeelm
+> show collections
+reeelm
+> db.reeelm.find()
 ```
