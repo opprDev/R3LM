@@ -12,10 +12,6 @@
 <a href="#license" alt="License">
 <img src="https://img.shields.io/github/license/opprDev/R3LM.svg?style=flat-square" />
 </a>
-<a href="#twitter" alt="Twitter">
-<img src="https://img.shields.io/twitter/url/https/github.com/opprDev/R3LM.svg?style=flat-square
-" />
-</a>
 <a href="#dependency_status" alt="dependencies">
 <img src="https://david-dm.org/opprDev/R3LM.svg?style=flat-square" />
 </a>
