@@ -16,14 +16,12 @@
 <img src="https://img.shields.io/twitter/url/https/github.com/opprDev/R3LM.svg?style=flat-square
 " />
 </a>
-
-[![dependency status][deps-svg]][deps-url]
-[![dev dependency status][dev-deps-svg]][dev-deps-url]
-
-[deps-svg]: https://david-dm.org/opprDev/R3LM.svg
-[deps-url]: https://david-dm.org/opprDev/R3LM
-[dev-deps-svg]: https://david-dm.org/opprDev/R3LM/dev-status.svg
-[dev-deps-url]: https://david-dm.org/opprDev/R3LM#info=devDependencies
+<a href="#dependency_status" alt="dependencies">
+<img src="https://david-dm.org/opprDev/R3LM.svg?style=flat-square" />
+</a>
+<a href="#dev_dependency_status" alt="devDependencies">
+<img src="https://david-dm.org/opprDev/R3LM/dev-status.svg?style=flat-square" />
+</a>
 
 <img src="banners/banner.png"/>
 
