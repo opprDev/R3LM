@@ -35,7 +35,7 @@
     "dataSource": "db",
     "public": false
   },
-  "reeelm": {
+  "rrrlm_model": {
     "dataSource": "db",
     "public": true
   }

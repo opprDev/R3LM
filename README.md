@@ -43,7 +43,7 @@ lb datasource mongoDS --connector mongoDB
 ? port: 27017
 ? user:
 ? password:
-? database: reeelm
+? database: rrrlm
 ```
 
 1. Cleate a LoopBack new model:
@@ -55,13 +55,13 @@ lb model
 2. Give the new model a name:
 
 ```
-? Enter the model name: reeelm
-? Select the datasource to attach reeelm to: db (mongodb)
+? Enter the model name: rrrlm_model
+? Select the datasource to attach rrrlm_model to: db (mongodb)
 ? Select model's base class PersistedModel
-? Expose reeelm via the REST API? Yes
+? Expose rrrlm_model via the REST API? Yes
 ? Custom plural form (used to build REST URL):
 ? Common model or server only? common
-Let's add some reeelm properties now.
+Let's add some rrrlm_model properties now.
 ```
 
 3. Create several properties:
@@ -74,7 +74,7 @@ Enter an empty property name when done.
 ? Required? Yes
 ? Default value[leave blank for none]:
 
-Let's add another reeelm property.
+Let's add another rrrlm_model property.
 Enter an empty property name when done.
 ? Property name: property_b
    invoke   loopback:property
@@ -82,7 +82,7 @@ Enter an empty property name when done.
 ? Required? Yes
 ? Default value[leave blank for none]:
 
-Let's add another reeelm property.
+Let's add another rrrlm_model property.
 Enter an empty property name when done.
 ? Property name: property_c
    invoke   loopback:property
@@ -90,7 +90,7 @@ Enter an empty property name when done.
 ? Required? No
 ? Default value[leave blank for none]:
 
-Let's add another reeelm property.
+Let's add another rrrlm_model property.
 Enter an empty property name when done.
 ? Property name:
 ```
@@ -136,10 +136,10 @@ mongo
 admin   0.000GB
 config  0.000GB
 local   0.000GB
-reeelm  0.000GB
-> use reeelm
-switched to db reeelm
+rrrlm  0.000GB
+> use rrrlm
+switched to db rrrlm
 > show collections
-reeelm
-> db.reeelm.find()
+rrrlm
+> db.rrrlm.find()
 ```
