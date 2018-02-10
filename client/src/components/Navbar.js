@@ -35,6 +35,13 @@ class Navbar extends Component {
                   Add List
                 </Link>
               </li>
+              <li>
+                <Link to="/about">
+                  <i className="fa fa-question-circle"></i>
+                  &nbsp;
+                  About
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
