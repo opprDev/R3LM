@@ -22,6 +22,7 @@ class Lists extends Component {
           console.log(this.state);
         })
       })
+      .catch(err => console.log(err));
   }
 
   render () {

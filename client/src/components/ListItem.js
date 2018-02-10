@@ -12,7 +12,11 @@ class ListItem extends Component {
 
   render () {
     return (
-      <li className="collection-item">{this.state.item.property_a}</li>
+      <li className="collection-item">
+        <Link to={`/lists/${this.state.item.id}`}>
+          {this.state.item.property_a}
+        </Link>
+      </li>
     )
   }
 }
