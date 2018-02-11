@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 import ButtonBack from './ButtonBack';
 
 class AddList extends Component {
@@ -31,21 +30,45 @@ class AddList extends Component {
     return (
       <div>
         <ButtonBack/>
-        <h1>Add List</h1>
+        <h1>
+          Add List
+        </h1>
         <form onSubmit={this.onSubmit.bind(this)}>
           <div className="input-field">
-            <input type="text" name="property_a" ref="property_a" />
-            <label htmlFor="property_a">Property A *</label>
+            <input
+              type="text"
+              name="property_a"
+              ref="property_a"
+            />
+            <label htmlFor="property_a">
+              Property A *
+            </label>
           </div>
           <div className="input-field">
-            <input type="text" name="property_b" ref="property_b" />
-            <label htmlFor="property_b">Property B *</label>
+            <input
+              type="text"
+              name="property_b"
+              ref="property_b"
+            />
+            <label htmlFor="property_b">
+              Property B *
+            </label>
           </div>
           <div className="input-field">
-            <input type="text" name="property_c" ref="property_c" />
-            <label htmlFor="property_c">Property C</label>
+            <input
+              type="text"
+              name="property_c"
+              ref="property_c"
+            />
+            <label htmlFor="property_c">
+              Property C
+            </label>
           </div>
-          <input type="submit" value="Save" className="btn" />
+          <input
+            type="submit"
+            value="Save"
+            className="btn"
+          />
         </form>
       </div>
     )

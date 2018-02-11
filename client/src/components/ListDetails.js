@@ -17,14 +17,29 @@ class ListDetails extends Component {
   }
 
   getList () {
-
-    let listId = this.props.match.params.id
-
-    axios.get(`http://localhost:3000/api/rrrlm_models/${listId}`)
+    let listId = this.props.match.params.id;
+    console.log("Get List ID: " + listId);
+    const url = `http://localhost:3000/api/rrrlm_models/${listId}`;
+    console.log("Assigned to Get URL: " + url);
+    axios.get(url)
     .then(response => {
       this.setState({details: response.data}, () => {
         console.log(this.state);
       })
+    })
+    .catch(err => console.log(err));
+  }
+
+  onDelete () {
+    let listId = this.state.details.id;
+    console.log("Delete List ID: " + listId);
+    const url = `http://localhost:3000/api/rrrlm_models/${listId}`;
+    console.log("Assigned to Delete URL: " + url);
+    axios.delete(url)
+    .then(response => {
+      console.log("Inside Response URL: " + url);
+      console.log("Pushing History of: " + this.props.history.push('/'));
+      this.props.history.push('/');
     })
     .catch(err => console.log(err));
   }
@@ -47,7 +62,7 @@ class ListDetails extends Component {
         <Link className="btn" to={`/lists/edit/${this.state.details.id}`}>
           Edit
         </Link>
-        <button className="btn red right">
+        <button onClick={this.onDelete.bind(this)} className="btn red right">
           Delete
         </button>
       </div>

@@ -19,7 +19,7 @@ class Lists extends Component {
     axios.get('http://localhost:3000/api/rrrlm_models')
       .then(response => {
         this.setState({lists: response.data}, () =>{
-          console.log(this.state);
+          //console.log(this.state);
         })
       })
       .catch(err => console.log(err));

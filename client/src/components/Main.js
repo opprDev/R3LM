@@ -4,14 +4,36 @@ import Lists from './Lists.js';
 import About from './About.js';
 import ListDetails from './ListDetails.js';
 import AddList from './AddList';
+import EditList from './EditList';
 
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Lists} />
-      <Route exact path='/about' component={About} />
-      <Route exact path='/lists/add' component={AddList} />
-      <Route exact path='/lists/:id' component={ListDetails} />
+      <Route
+        exact
+        path='/'
+        component={Lists}
+      />
+      <Route
+        exact
+        path='/about'
+        component={About}
+      />
+      <Route
+        exact
+        path='/lists/add'
+        component={AddList}
+      />
+      <Route
+        exact
+        path='/lists/edit/:id'
+        component={EditList}
+      />
+      <Route
+        exact
+        path='/lists/:id'
+        component={ListDetails}
+      />
     </Switch>
   </main>
 )
