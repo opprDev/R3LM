@@ -21,12 +21,12 @@ class ListDetails extends Component {
     let listId = this.props.match.params.id
 
     axios.get(`http://localhost:3000/api/rrrlm_models/${listId}`)
-      .then(response => {
-        this.setState({details: response.data}, () =>{
-          console.log(this.state);
-        })
+    .then(response => {
+      this.setState({details: response.data}, () => {
+        console.log(this.state);
       })
-      .catch(err => console.log(err));
+    })
+    .catch(err => console.log(err));
   }
 
   render () {
