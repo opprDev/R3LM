@@ -7,8 +7,8 @@ class Navbar extends Component {
       <div>
         <nav className="blue">
           <div className="nav-wrapper">
-            <a href="/" className="brand-logo">R3LM</a>
-            <a data-activates="main-menu" className="button-collapse">
+            <a href="/" className="brand-logo center">R3LM</a>
+            <a data-activates="main-menu" className="button-collapse show-on-large">
               <i className="fa fa-bars"></i>
             </a>
             <ul className="right hide-on-small-only">
