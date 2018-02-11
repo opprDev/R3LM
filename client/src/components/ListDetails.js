@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import ButtonBack from './ButtonBack';
 
 class ListDetails extends Component {
 
@@ -31,10 +32,7 @@ class ListDetails extends Component {
   render () {
     return (
       <div>
-        <br />
-        <Link className="btn grey" to="/">
-          Back
-        </Link>
+        <ButtonBack/>
         <h1>
           {this.state.details.property_a}
         </h1>
