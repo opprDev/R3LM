@@ -5,7 +5,7 @@ class Navbar extends Component {
   render () {
     return (
       <div>
-        <nav className="blue">
+        <nav className="green">
           <div className="nav-wrapper">
             <a href="/" className="brand-logo center">R3LM</a>
             <a data-activates="main-menu" className="button-collapse show-on-large">
