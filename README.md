@@ -26,11 +26,9 @@
 
 A starter boilerplate for a universal webapp using [React](https://reactjs.org/), [Redux](https://redux.js.org/), [Router](https://reacttraining.com/react-router/), [LoopBack](https://loopback.io/) and [MongoDB](https://www.mongodb.com/).
 
-<center>
 <a href="https://www.patreon.com/oppr" target="_blank">
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
-<center>
 
 ## Instructions
 
