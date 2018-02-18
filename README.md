@@ -18,7 +18,7 @@
 <a href="#dev_dependency_status" alt="devDependencies">
 <img src="https://david-dm.org/opprDev/R3LM/dev-status.svg?style=flat-square" />
 </a>
-<a href="#demo" alt="Demo">
+<a href="http://r3lm.surge.sh/" alt="Demo">
 <img src="https://img.shields.io/badge/demo-link-blue.svg?style=flat-square" />
 </a>
 
