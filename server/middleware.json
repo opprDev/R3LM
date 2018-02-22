@@ -41,9 +41,7 @@
     }
   },
   "files": {
-    "loopback#static": {
-      "params": "$!../client/build"
-    }
+
   },
   "final": {
     "loopback#urlNotFound": {}

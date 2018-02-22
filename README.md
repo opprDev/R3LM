@@ -116,6 +116,13 @@ npm install
 npm start
 ```
 
+3. To run the client
+
+```
+cd client/
+npm start
+```
+
 #### App
 
 ```
