@@ -1,8 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import axios from 'axios';
 import ButtonBack from './ButtonBack';
 
 class AddList extends Component {
+
+  constructor(props, context) {
+    super(props, context);
+  }
+
+  handleAddList() {
+    this.props.actions.addList();
+  }
 
   addList (newList) {
     axios.request({
@@ -75,5 +83,9 @@ class AddList extends Component {
   }
 
 }
+
+AddList.propTypes = {
+
+};
 
 export default AddList;

@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
-import Main from './components/Main';
-import Navbar from './components/Navbar';
-import ButtonAdd from './components/ButtonAdd';
+
+import Main from '../components/Main';
+import Navbar from '../components/Navbar';
+import ButtonAdd from '../components/ButtonAdd';
 
 const App = () => (
   <div>

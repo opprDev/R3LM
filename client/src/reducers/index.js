@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import list from './list';
+import lists from './lists';
 
 /**
  * combineReducers is important to understand. As your app might grow in size
@@ -15,7 +15,7 @@ import list from './list';
  * More info: https://redux.js.org/api-reference/combinereducers
  */
 const rootReducer = combineReducers({
-  list, // you might be used to: list: list,
+  lists, // you might be used to: list: list,
 });
 
 export default rootReducer;
