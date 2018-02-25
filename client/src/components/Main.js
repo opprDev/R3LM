@@ -3,8 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 import Lists from './Lists.js';
 import About from './About.js';
 import ListDetails from './ListDetails.js';
-import AddList from './AddList';
-import EditList from './EditList';
+import AddList from '../containers/AddList';
+import EditList from '../containers/EditList';
 
 const Main = () => (
   <main>

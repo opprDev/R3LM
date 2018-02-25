@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import ButtonBack from './ButtonBack';
+import ButtonBack from '../components/ButtonBack';
 
 class EditList extends Component {
 
