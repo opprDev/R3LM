@@ -7,7 +7,11 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "start": "node .",
+    "start:server": "node .",
+    "start:client": "cd client && npm run start",
+    "start:double": "npm run start:server && npm run start:client",
+    "start:single": "npm run start:server & npm run start:client",
+    "start": "(npm run start:double) || (npm run start:single)",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {

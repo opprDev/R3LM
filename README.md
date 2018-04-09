@@ -110,16 +110,9 @@ Enter an empty property name when done.
 npm install
 ```
 
-2. To run the server
+2. To run the server and client
 
 ```
-npm start
-```
-
-3. To run the client
-
-```
-cd client/
 npm start
 ```
 
